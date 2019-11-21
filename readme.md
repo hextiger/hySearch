@@ -25,6 +25,13 @@ hySearch 慧搜
 - 本程序使用python 3.x编写，用到的库包括wxpyhon、pandas、pypinyin
 - 附带学习强国挑战答题和看视频答题题库，均为网上收集整理，希望大家共同补充完善
 
+### 文件说明：
+- data.zip 数据文件，需放至与主程序hySearch相同文件夹
+- hySearch.pyw 源代码文件
+- hySearch3-amd64-3.7.rar windows 64位版本，解压后运行hySearch.exe即可
+- readme.md 说明文档
+- setup.py cx-freeze生成exe文件模板
+
 ### log： 
 
 - 3.191121：重建题库，收录1334条；搜索可以使用中文或拼音首字母，打包工具由pyingstaller改为cx_freeze
