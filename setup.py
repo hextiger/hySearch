@@ -8,7 +8,7 @@ base = "Win32GUI"
 # base = 'ConsoleKeepPath'
 # base = 'Win32GUI'
 # base = 'Win32Service'
-build_exe_options = {"packages": [], "excludes": ["tkinter"],"include_files": ["data.zip"], "optimize": 2}
+build_exe_options = {"packages": [], "excludes": ["tkinter"],"include_files": ["data.zip"]}
 
 setup(
     name="hySearch",
